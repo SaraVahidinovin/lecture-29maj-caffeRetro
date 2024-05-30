@@ -13,13 +13,14 @@ body{
      background-color: rgba(0, 0, 0, 0.7);
      position: fixed;
      width: 100%;
-     padding: 5px 0;
+     padding: 0;
 }
 
 ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
+    margin: 5px;
 }
 
 li{
@@ -46,7 +47,7 @@ a{
 h1{
     font-family: "Spirax", sans-serif;
     font-size: 4em;
-    color: rgb(196, 46, 46);
+    color: rgb(161, 3, 3);
 }
 
 p{
@@ -56,6 +57,29 @@ p{
     margin: 10px 0;
 }
 
-.description2{
+.description1{
+    align-self: flex-start;
+    margin-left: 200px;
+}
 
+.description2{
+    padding-left: 120px;
+    padding-right: 120px;
+    align-self: flex-end;
+    margin-right: 200px;
+
+}
+
+.menu{
+    width: 600px;
+    margin-top: 10px;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px 0 50px;
+    
 }
