@@ -57,17 +57,16 @@ p{
     margin: 10px 0;
 }
 
-.description1{
+#section1 .description1{
     align-self: flex-start;
     margin-left: 200px;
 }
 
-.description2{
+#section1 .description2{
     padding-left: 120px;
     padding-right: 120px;
     align-self: flex-end;
     margin-right: 200px;
-
 }
 
 .menu{
@@ -80,6 +79,34 @@ p{
     justify-content: space-between;
     align-items: center;
     background: rgba(0, 0, 0, 0.8);
-    padding: 10px 50px 0 50px;
-    
+    padding: 10px 50px 5px 50px; 
 }
+
+#section2 .description1{
+    align-self: flex-start;
+    margin-left: 200px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#section2 .description2{
+    padding-left: 40px;
+    padding-right: 40px;
+    align-self: flex-end;
+    margin-right: 200px;
+}
+
+#section3 .description1{
+    align-self: flex-start;
+    margin-left: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#section3 .description2{
+    padding-left: 70px;
+    padding-right: 70px;
+    align-self: flex-end;
+    margin-right: 200px;
+}
+
