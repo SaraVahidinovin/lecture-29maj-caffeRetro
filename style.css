@@ -110,3 +110,49 @@ p{
     margin-right: 200px;
 }
 
+@media screen and (max-width: 425px) {
+    .description2{
+        display: none;
+    }
+
+    li{
+    margin: 0 5px;
+    }
+    
+a{
+    font-size: .5em;
+}
+
+h1{
+    font-size: 2em;
+}
+
+p{
+    font-size: .7em;
+    padding: 5px;
+    margin: 10px 0;
+}
+#section1 .description1{
+    align-self: flex-start;
+    margin-left: 0;
+}
+
+#section2 .description1{
+    align-self: flex-start;
+    margin-left:0 ;
+    padding-left: 0;
+    padding-right:0;
+}
+#section3 .description1{
+    align-self: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.menu{
+    width: 200px;
+}
+
+}
+    
